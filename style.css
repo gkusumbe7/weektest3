@@ -130,7 +130,7 @@ div.main-1{
 
 .footer-div{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     background: linear-gradient(to right,#020101,#E44B3B);
     height: 650px;
     margin-top: 1%;
@@ -153,10 +153,20 @@ div.main-1{
 .footer-img{
     background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/HD-Air-Jordan-Shoes-Image.jpg");
     background-size: cover;
-    margin-top: 60px;
-    height: 300px;
-    width: 300px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 90px;
+    /* position: absolute; */
+     margin-top: 60px; 
+     margin-left: 400px;
+    /* left: 10%; */
+    /* top: 20%; */
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 8px white;
+}
+
+.footer-img:hover {
+    /* right: 1%; */
+    top: 25%;
+    width: 350px;
+    height: 350px;
 }
